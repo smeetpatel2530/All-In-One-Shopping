@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/ad"
+            android:background="@drawable/custom_button"
+            android:text="Amazon"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button8"
+
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/fl"
+            android:background="@drawable/custom_button"
+            android:text="Flipkart"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/my"
+            android:background="@drawable/custom_button"
+            android:text="Myntra"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/snp"
+            android:background="@drawable/custom_button"
+            android:text="Snapdeal"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/pm"
+            android:background="@drawable/custom_button"
+            android:text="Paytm Mall"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/shpy"
+            android:background="@drawable/custom_button"
+            android:text="Shopclues"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:drawableLeft="@drawable/ebn"
+            android:background="@drawable/custom_button"
+            android:text="eBay"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
